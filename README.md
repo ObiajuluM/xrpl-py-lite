@@ -42,6 +42,10 @@ wallet.send_currency()
 
 wallet.account_assets(wallet_addr="")
 
+# utilities for easy network change and test
+wallet.toMainnet()
+wallet.toTestnet()
+
 ```
 etc
 
