@@ -43,6 +43,12 @@ wallet.send_currency()
 wallet.account_assets(wallet_addr="")
 
 ```
+etc
+
+`objects`
+```
+
+```
 
 
 
