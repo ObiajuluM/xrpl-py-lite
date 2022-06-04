@@ -26,31 +26,54 @@ etc
 ```
 wallet = xLiteWallet("https://s.altnet.rippletest.net:51234","https://testnet.xrpl.org/accounts/", "https://testnet.xrpl.org/transactions/")
 
-wallet.generate_xrp_wallet(name="my test wallet")
+wallet = xLiteToolSet("https://s.altnet.rippletest.net:51234","https://testnet.xrpl.org/accounts/", "https://testnet.xrpl.org/transactions/")
 
-wallet.restore_wallet(name="test", seed="your xrpl seed")
+[TOOLSET]
+eng.toTestnet()
+eng.toMainnet()
+eng.holding_currencies()
+eng.created_assets_cold_addr()
+eng.created_assets_hot_addr()
+eng.add_asset()
+eng.modify_ripple_status()
+eng.remove_asset()
+eng.delete_account()
+eng.merge_account()
+eng.create_xrp_check()
+eng.account_xrp_checks()
+eng.account_xrp_checks()
+eng.cash_xrp_check()
+eng.cancel_check()
+eng.create_asset_check()
+eng.cash_asset_check()
+eng.account_asset_checks()
+eng.create_offer()
+eng.account_offers()
+eng.cancel_offer()
+eng.all_offers()
+eng.create_escrow()
+eng.schedule_xrp()
+eng.account_escrows()
+eng.cancel_escrow()
+eng.finish_escrow()
 
-wallet.spendable_xrp_balance(wallet_addr="rWalletgoesHEre")
-
-wallet.xrp_transactions(wallet_addr="")
-
-wallet.asset_transactions(wallet_addr="")
-
-wallet.send_xrp()
-
-wallet.send_currency()
-
-wallet.account_assets(wallet_addr="")
-
-# utilities for easy network change and test
-wallet.toMainnet()
+[WALLET]
 wallet.toTestnet()
-
-```
-etc
-
-`objects`
-```
+wallet.toMainnet()
+wallet.show_account_in_explorer()
+wallet.show_transaction_in_explorer()
+wallet.generate_xrp_wallet()
+wallet.restore_wallet()
+wallet.spendable_xrp_balance()
+wallet.xrp_balance()
+wallet.get_network_fee()
+wallet.get_account_next_seq_number()
+wallet.account_exists()
+wallet.xrp_transactions()
+wallet.asset_transactions()
+wallet.send_xrp()
+wallet.send_currency()
+wallet.account_assets()
 
 ```
 
