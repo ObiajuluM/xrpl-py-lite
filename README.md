@@ -22,7 +22,7 @@ It will support the following and more in the future:
 5. Rekeying
 etc
 
-`accounts`
+
 ```
 wallet = xLiteWallet("https://s.altnet.rippletest.net:51234","https://testnet.xrpl.org/accounts/", "https://testnet.xrpl.org/transactions/")
 
@@ -51,7 +51,7 @@ eng.create_offer()
 eng.account_offers()
 eng.cancel_offer()
 eng.all_offers()
-eng.create_escrow()
+eng.create_escrow() # Misc.genCondition_Fulfillment()
 eng.schedule_xrp()
 eng.account_escrows()
 eng.cancel_escrow()
