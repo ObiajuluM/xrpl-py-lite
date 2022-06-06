@@ -20,6 +20,7 @@ It will support the following and more in the future:
 3. NFT creation and management
 4. Account Set transactions
 5. Rekeying
+6. NFT Creation and Management
 etc
 
 
