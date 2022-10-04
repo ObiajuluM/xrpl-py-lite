@@ -13,14 +13,8 @@ it currently supports:
 4. Creation and management of Escrows, with support for conditions 
 5. Creation and management of Checks
 6. Creation and mangement of Offers
-
-It will support the following and more in the future:
-1. Payment channels
-2. Token creation and management
-3. NFT creation and management
-4. Account Set transactions
-5. Rekeying
-6. NFT Creation and Management
+7. Token creation and management
+8. NFT creation and management
 etc
 
 
